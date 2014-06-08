@@ -27,6 +27,17 @@ public class SplashActivity extends Activity {
 			}
 		}).start();
 	}
+	
+	
+
+	@Override
+	public void onBackPressed() {
+		//Não fazer nada
+		
+	}
+	
+	
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
